@@ -1,0 +1,23 @@
+/* FullWidthSection.css */
+.fullwidth-section {
+    width: 100%;
+    min-height: 30vh; /* adjust height */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 4rem 2rem;
+}
+
+/* dark overlay for readability */
+.fullwidth-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.fullwidth-section .container {
+    position: relative; /* keeps text above overlay */
+    z-index: 1;
+}

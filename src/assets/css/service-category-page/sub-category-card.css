@@ -1,0 +1,54 @@
+.service-card {
+    position: relative;
+    width: 100%;
+    max-width: 320px; /* keep cards consistent */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Image */
+.service-card-img {
+    width: 100%;
+    background-position: center;
+    background-size: cover ;
+    height: 240px; /* fixed height for consistency */
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.service-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* prevent stretching */
+    border-radius: 0.5rem;
+}
+
+/* Content */
+.service-card-content {
+    width: 90%;
+    background-color: #1a1a1a;
+    color: white !important;
+    border-radius: 0.5rem;
+    margin-top: -2rem; /* neat overlap */
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    text-align: left;
+}
+
+/* Headings */
+.service-card-content h3 {
+    margin-bottom: 0.5rem;
+    color: var(--primary-color, #be1c57);
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+/* Text */
+.service-card-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #ccc;
+}

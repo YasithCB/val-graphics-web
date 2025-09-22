@@ -1,7 +1,12 @@
 @font-face {
     font-family: 'Bank Gothic';
-    src: url('/fonts/BankGothic/BankGothic Md BT.ttf') format('woff2'),
-    url('/fonts/BankGothic/bank gothic medium bt.ttf') format('woff');
+    src:
+            url('/fonts/BankGothic/BankGothic Md BT.ttf') format('woff2'),
+            url('/fonts/BankGothic/bank gothic medium bt.ttf') format('woff'),
+            url('/fonts/BankGothic/Bank Gothic Light Regular.otf') format('woff'),
+            url('/fonts/BankGothic/BankGothic Bold') format('woff'),
+            url('/fonts/BankGothic/BankGothicMediumBT') format('woff')
+    ;
     font-weight: 500;
     font-style: normal;
     font-display: swap;

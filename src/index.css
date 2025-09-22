@@ -12,7 +12,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-    --primary-color: #BE1C57;
+    --primary-color: #c51f5d;
+    /*--primary-color: #19d1e6;*/
     --primary-color-hover: #e63475;
     --primary-color2: #ca4d13;
     --secondary-color: #2b2b2b;
@@ -33,7 +34,7 @@ a:hover {
 }
 
 body {
-    background-color: #222222 !important ;
+    background-color: #000000 !important ;
     min-width: 320px;
   min-height: 100vh;
 }
