@@ -1,0 +1,53 @@
+/* Wrapper */
+.form-label {
+    font-weight: 600;
+    color: rgb(var(--primary-color-rgb));
+    margin-bottom: 0.5rem;
+    display: block;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+/* Dropdown */
+.form-select{
+    border: 2px solid rgba(var(--primary-color-rgb), 0.3);
+    border-radius: 0.5rem;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    color: white;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(6px);
+    background-color: #1a1a1a;
+}
+
+/* Hover */
+.form-select:hover {
+    border-color: rgba(var(--primary-color-rgb), 0.6);
+    box-shadow: 0 4px 12px rgba(var(--primary-color-rgb), 0.2);
+}
+
+/* Focus */
+.form-select:focus {
+    outline: none;
+    border-color: rgb(var(--primary-color-rgb));
+    box-shadow: 0 0 0 0.25rem rgba(var(--primary-color-rgb), 0.25);
+}
+
+/* Option text */
+.form-select option {
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.form-control {
+    background-color: #1a1a1a !important;
+    color: white !important;
+    border: 2px solid rgba(var(--primary-color-rgb), 0.3) !important;
+
+}
+.form-control:focus {
+    outline: none !important;
+    border-color: rgb(var(--primary-color-rgb)) !important;
+    box-shadow: 0 0 0 0.25rem rgba(var(--primary-color-rgb), 0.25) !important;
+}

@@ -1,0 +1,59 @@
+/* Header wrapper */
+header {
+    height: 12vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(
+            120deg,
+            rgba(var(--primary-color-rgb), 0.4) 0%, /* semi-transparent first color */
+            var(--secondary-color) 80%
+    );
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    padding: 0 2rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+    position: relative;
+    color: white !important;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-size: 1rem;
+}
+
+/* Hover effect */
+.navbar-nav .nav-link:hover {
+    color: var(--primary-color-hover) !important;
+    transform: translateY(-3px); /* slight lift */
+}
+
+/* Underline animation */
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--secondary-color) !important;
+    transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 100%;
+}
+
+/* Active link */
+.navbar-nav .nav-link.active {
+    color: #b6a005;
+}
+
+.navbar-nav .nav-link.active::after {
+    width: 100%;
+}
