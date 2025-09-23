@@ -1,0 +1,64 @@
+/* Labels */
+.form-label {
+    font-weight: 600;
+    color: var(--content-color-50);
+    margin-bottom: 0.5rem;
+    display: block;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+/* Inputs */
+.form-control {
+    background-color: var(--background-color) !important;
+    color: var(--content-color) !important;
+    border: 2px solid rgba(var(--primary-color-rgb), 0.3) !important;
+    border-radius: 0.5rem;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(6px);
+}
+.form-control::placeholder {
+    color: var(--content-color-50); /* lighter tone */
+    opacity: 1; /* ensures the color applies consistently */
+    transition: color 0.3s ease;
+}
+
+
+.form-control:focus {
+    outline: none !important;
+    border-color: rgb(var(--primary-color-rgb)) !important;
+    box-shadow: 0 0 0 0.25rem rgba(var(--primary-color-rgb), 0.25) !important;
+}
+
+/* Dropdown */
+.form-select {
+    border: 2px solid rgba(var(--primary-color-rgb), 0.3);
+    border-radius: 0.5rem;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    color: white;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(6px);
+    background-color: #1a1a1a;
+}
+
+.form-select:hover {
+    border-color: rgba(var(--primary-color-rgb), 0.6);
+    box-shadow: 0 4px 12px rgba(var(--primary-color-rgb), 0.2);
+}
+
+.form-select:focus {
+    outline: none;
+    border-color: rgb(var(--primary-color-rgb));
+    box-shadow: 0 0 0 0.25rem rgba(var(--primary-color-rgb), 0.25);
+}
+
+.form-select option {
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: #000; /* ensures dropdown options are readable */
+}

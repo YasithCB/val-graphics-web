@@ -1,6 +1,21 @@
+/* grid */
 .card-grid {
     height: 60vh !important;
 }
+.custom-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 per row */
+    gap: 1rem;
+}
+
+.service-item {
+    display: flex;
+}
+
+.span-2-rows {
+    grid-row: span 2; /* takes 2 rows */
+}
+/* grid */
 
 /* service-card */
 .service-card {
@@ -40,21 +55,23 @@
     backdrop-filter: blur(5px);
     background: linear-gradient(
             135deg,
-            rgba(var(--primary-color-rgb), 0.75) 0%,
-            rgba(var(--secondary-color-rgb), 0.75) 100%
+            rgba(var(--primary-color-rgb), 0.5) 0%,
+            rgba(var(--background-color-rgb), 0.8) 100%
     );
     transition: all 0.6s ease;
     overflow: hidden;
-    height: 3.2rem; /* title strip only */
+    height: 4rem; /* title strip only */
 }
+
 .service-card-glass h4 {
-    line-height: 1;
+    line-height: 0.85;
+    font-size: 1.35rem;
 }
 
 
 /* On hover, slide up to 75% */
 .service-card:hover .service-card-glass {
-    height: 75%;
+    height: 85%;
     padding-bottom: 1.5rem;
 }
 
@@ -63,7 +80,7 @@
     opacity: 0;
     color: white;
     font-size: 0.8rem !important;
-    padding: 1rem 2rem;
+    padding: 0 2rem;
     transform: translateY(20px);
     transition: opacity 0.4s ease, transform 0.4s ease;
 }

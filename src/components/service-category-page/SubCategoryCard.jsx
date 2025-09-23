@@ -1,10 +1,8 @@
 import "../../assets/css/service-category-page/sub-category-card.css";
 
 export default function SubCategoryCard({ item }) {
-  console.log("item");
-  console.log(item);
   return (
-    <section className="">
+    <section className="col-3">
       <div className="service-card">
         {/* Image */}
         <div

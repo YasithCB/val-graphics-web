@@ -15,23 +15,23 @@
   -moz-osx-font-smoothing: grayscale;
 
     --background-color: #0e0e0e;
+    --background-color-rgb: 14, 14, 14;
+
     --content-color: white;
     --content-color-50: rgba(255, 255, 255, 0.5);
 
     --primary-color: #c51f5d;
     --primary-color-rgb: 197, 31, 93;
+
     /*--primary-color: #19d1e6;*/
+    /*--primary-color-rgb: 25, 209, 230*/
+
     /*--primary-color: #E6FF2B;*/
+    /*--primary-color-rgb: 230, 255, 43;*/
 
     --primary-color-hover: #e63475;
-    --primary-color2: #ca4d13;
-
-    --secondary-color: #0e0e0e;
-    --secondary-color-rgb: 14, 14, 14;
-
-
     --primary-color-hover-rgb: 230, 52, 117; /* #e63475 */
-    --primary-color2-rgb: 202, 77, 19;       /* #ca4d13 */
+
 }
 
 a {

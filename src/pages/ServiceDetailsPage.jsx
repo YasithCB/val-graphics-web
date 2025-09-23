@@ -41,7 +41,7 @@ export default function ServiceDetailsPage() {
 
       {/* Subcategories */}
       <div className="container">
-        <div className="d-flex justify-content-center gap-3">
+        <div className="d-flex flex-wrap justify-content-center gap-3">
           {category.subcategories.map((item, idx) => (
             <SubCategoryCard item={item} key={idx} />
           ))}

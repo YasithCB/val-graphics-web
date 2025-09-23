@@ -28,7 +28,7 @@ export default function EstimatorSection() {
   };
 
   return (
-    <section className="estimator-section container py-5">
+    <section className="estimator-section container pt-3">
       <div className="row justify-content-center text-center mb-4">
         <div className="col-lg-8 text-white">
           <h2 className="mb-3">
