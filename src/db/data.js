@@ -45,11 +45,11 @@ export const SERVICES = [
 ];
 
 import categoryImage1 from "../assets/images/services/card-images/vehi-wrap-2.png";
-import categoryImage2 from "../assets/images/services/card-images/vehi-wrap-2.png";
-import categoryImage3 from "../assets/images/services/card-images/vehi-wrap-2.png";
-import categoryImage4 from "../assets/images/services/card-images/vehi-wrap-2.png";
-import categoryImage5 from "../assets/images/services/card-images/vehi-wrap-2.png";
-import categoryImage6 from "../assets/images/services/card-images/vehi-wrap-2.png";
+import categoryImage2 from "../assets/images/services/card-images/acrylic-works.png";
+import categoryImage3 from "../assets/images/services/card-images/printing-services.png";
+import categoryImage4 from "../assets/images/services/card-images/signage-works.png";
+import categoryImage5 from "../assets/images/services/card-images/wallpapers.jpg";
+import categoryImage6 from "../assets/images/services/card-images/service-6.png";
 
 import subCategoryImage1n1 from "../assets/images/sub-category-images/1.1.jpg";
 import subCategoryImage1n2 from "../assets/images/sub-category-images/1.2.jpg";

@@ -3,6 +3,7 @@
     background: linear-gradient(135deg, #000000 0%, #222222 100%);
     position: relative;
     overflow: hidden;
+    margin-top: 7rem !important;
 }
 .footer-wrapper::before {
     /* subtle moving radial glow */

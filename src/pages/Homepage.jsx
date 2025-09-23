@@ -5,19 +5,21 @@ import Footer from "../components/Footer";
 import HeroSection from "../components/HeroSection.jsx";
 import AboutSection from "../components/AboutSection.jsx";
 import EstimatorSection from "../components/EstimatorSection.jsx";
+import InquiryAndBooking from "../components/InquiryAndBooking.jsx";
 
 const HomePage = () => {
-    return (
-        <div className="light-container">
-            <Header />
-            <HeroSection/>
-            <AboutSection/>
-            <EstimatorSection/>
-            <Footer />
+  return (
+    <div className="light-container">
+      <Header />
+      <HeroSection />
+      <AboutSection />
+      <EstimatorSection />
+      <InquiryAndBooking />
+      <Footer />
 
-            <WhatsAppButton />
-        </div>
-    );
+      <WhatsAppButton />
+    </div>
+  );
 };
 
 export default HomePage;

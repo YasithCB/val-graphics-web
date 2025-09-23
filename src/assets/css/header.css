@@ -7,7 +7,7 @@ header {
     width: 100%;
     background: linear-gradient(
             120deg,
-            rgba(var(--primary-color-rgb), 0.75) 0%, /* semi-transparent first color */
+            rgba(var(--primary-color-rgb), 0.75) 0%, /* semi-transparent pink */
             black 80%
     );
     display: flex;

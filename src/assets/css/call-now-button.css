@@ -1,0 +1,56 @@
+.call-fab {
+    position: fixed;
+    bottom: 30px; /* keep above WhatsApp button */
+    right: 100px;
+    background-color: var(--content-color); /* green or your brand color */
+    color: var(--primary-color);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    animation: bounceIn 0.6s ease;
+}
+
+.call-icon {
+    font-size: 20px;
+}
+
+.call-ring {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    animation: callPulse 1.5s infinite;
+}
+
+@keyframes callPulse {
+    0% {
+        transform: scale(0.9);
+        opacity: 0.75;
+    }
+    70% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+}
+
+@keyframes bounceIn {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

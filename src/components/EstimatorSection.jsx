@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../assets/css/estimator-section.css";
-import { SERVICES_DATA_ALL } from "../db/Constants.js";
+import { SERVICES_DATA_ALL } from "../db/data.js";
 
 export default function EstimatorSection() {
   const [category, setCategory] = useState("");

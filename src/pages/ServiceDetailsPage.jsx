@@ -1,7 +1,7 @@
 // pages/ServiceDetailsPage.jsx
 import React from "react";
 import { useParams } from "react-router-dom";
-import { SERVICES_DATA_ALL } from "../db/Constants.js";
+import { SERVICES_DATA_ALL } from "../db/data.js";
 
 import "../assets/css/service-details-page.css";
 import SubCategoryCard from "../components/service-category-page/SubCategoryCard.jsx";
@@ -12,6 +12,9 @@ export default function ServiceDetailsPage() {
   const category = SERVICES_DATA_ALL.categories.find(
     (c) => c.name.toLowerCase().replace(/\s+/g, "-") === categoryName,
   );
+
+  console.log("category");
+  console.log(category);
 
   // Split first word from the rest
   const [firstWord, ...rest] = category.name.split(" ");

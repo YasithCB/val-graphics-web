@@ -1,0 +1,101 @@
+/* Section Wrapper */
+.inquiry-section {
+    background: linear-gradient(
+            /*135deg,*/
+            rgba(var(--secondary-color-rgb),10),
+            rgba(var(--primary-color-rgb), 0.35)
+    );
+    border-radius: 1rem;
+    overflow: hidden;
+    padding: 3rem 2rem;
+}
+
+.inquiry-section h2 {
+    font-weight: 700;
+}
+
+.inquiry-section p {
+    color: #ddd;
+}
+
+/* Labels */
+.form-label {
+    font-weight: 600;
+    color: var(--content-color-50);
+    margin-bottom: 0.5rem;
+    display: block;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+/* Inputs */
+.form-control {
+    background-color: var(--content-color-50) !important;
+    color: white !important;
+    border: 2px solid rgba(var(--primary-color-rgb), 0.3) !important;
+    border-radius: 0.5rem;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(6px);
+}
+
+.form-control:focus {
+    outline: none !important;
+    border-color: rgb(var(--primary-color-rgb)) !important;
+    box-shadow: 0 0 0 0.25rem rgba(var(--primary-color-rgb), 0.25) !important;
+}
+
+/* Dropdown */
+.form-select {
+    border: 2px solid rgba(var(--primary-color-rgb), 0.3);
+    border-radius: 0.5rem;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    color: white;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(6px);
+    background-color: #1a1a1a;
+}
+
+.form-select:hover {
+    border-color: rgba(var(--primary-color-rgb), 0.6);
+    box-shadow: 0 4px 12px rgba(var(--primary-color-rgb), 0.2);
+}
+
+.form-select:focus {
+    outline: none;
+    border-color: rgb(var(--primary-color-rgb));
+    box-shadow: 0 0 0 0.25rem rgba(var(--primary-color-rgb), 0.25);
+}
+
+.form-select option {
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: #000; /* ensures dropdown options are readable */
+}
+
+
+/* common */
+.inquiry-booking-section .row {
+    height: 650px !important;
+}
+
+.inquiry-box, .booking-box {
+    background: #1a1a1a;
+    border-radius: 0.75rem;
+    color: white;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+}
+
+.inquiry-box h3, .booking-box h3 {
+    font-weight: 600;
+}
+
+.call-us .btn {
+    border-radius: 0.5rem;
+    padding: 0.7rem 1rem;
+}
+/* common */

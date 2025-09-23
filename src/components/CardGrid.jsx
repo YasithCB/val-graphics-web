@@ -1,7 +1,7 @@
 import React from "react";
 import ServiceCard from "./ServiceCard.jsx";
 import "../assets/css/card-grid.css";
-import { SERVICES } from "../db/Constants.js";
+import { SERVICES } from "../db/data.js";
 import { Link } from "react-router-dom";
 
 export default function CardGrid() {
