@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "../assets/css/header.css";
-import logoWhite from "../assets/images/logo-white.svg";
+import logoWhite from "../assets/images/logo-white-horiz.png";
 import { FaPhoneAlt, FaUser } from "react-icons/fa";
 import { PHONE } from "../db/constants.js";
 import { Link, useNavigate } from "react-router-dom";
@@ -20,11 +20,7 @@ export default function Header() {
       <div className="container">
         {/* Logo */}
         <a className="navbar-brand" href="#home">
-          <img
-            src={logoWhite}
-            alt="val-logo"
-            height="45" // Adjust to desired header size
-          />
+          <img src={logoWhite} alt="val-logo" height={50} />
         </a>
 
         {/* Mobile Toggle */}

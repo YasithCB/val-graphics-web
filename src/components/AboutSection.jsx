@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/css/about-section.css";
 import img from "../assets/images/view/eye-design.jpg"; // replace with your image
-import imgGif from "../assets/images/gif/logo-white.gif"; // replace with your image
+import imgGif from "../assets/images/logo-anim.gif"; // replace with your image
 
 export default function AboutSection() {
   return (

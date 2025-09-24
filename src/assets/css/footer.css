@@ -11,6 +11,7 @@
     overflow: hidden;
     margin-top: 7rem !important;
 }
+
 /* subtle moving radial glow */
 .footer-wrapper::before {
     content: "";
@@ -35,7 +36,7 @@
 }
 
 .footer-logo {
-    max-height: 140px;
+    width: 100%;
 }
 
 .footer-title {

@@ -12,7 +12,7 @@ import {
 import "../assets/css/footer.css";
 
 import robotWhite from "../assets/images/view/robot-white-top.png";
-import logoWhite from "../assets/images/logo-white.svg";
+import logoWhite from "../assets/images/logo-white-horiz.png";
 
 export default function Footer() {
   return (

@@ -20,7 +20,7 @@ function App() {
       <AuthProvider>
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route path="/val-graphics-web" element={<HomePage />} />
             <Route
               path="/services/:categoryName"
               element={<ServiceDetailsPage />}
