@@ -1,5 +1,6 @@
 import React from "react";
-import { FaPaintBrush, FaPrint, FaTools, FaWrench } from "react-icons/fa"; // icons
+import { FaPaintBrush, FaPrint, FaTools, FaWrench } from "react-icons/fa";
+import { AOS_CONFIG } from "../db/aosAnimations.js"; // icons
 
 const HowWeDo = () => {
   const services = [
@@ -31,6 +32,7 @@ const HowWeDo = () => {
         <div
           key={index}
           className="service-box col-12 col-md p-1 p-md-4 text-center h-100"
+          {...AOS_CONFIG.FADE_UP}
         >
           <div className="icon-wrapper text-primary-custom mb-3">
             {service.icon}

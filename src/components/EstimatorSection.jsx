@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../assets/css/estimator-section.css";
 import { SERVICES_DATA_ALL } from "../db/data.js";
+import { AOS_CONFIG } from "../db/aosAnimations.js";
 
 export default function EstimatorSection() {
   const [category, setCategory] = useState("");
@@ -31,17 +32,17 @@ export default function EstimatorSection() {
     <section className="estimator-section container pt-5">
       <div className="row justify-content-center text-center mb-4">
         <div className="col-lg-8 text-white">
-          <h2 className="mb-3">
+          <h2 className="mb-3" {...AOS_CONFIG.FADE_UP}>
             <span className="text-primary-custom">Project</span> Cost Estimator
           </h2>
-          <p className="text-white-50 px-2">
+          <p className="text-white-50 px-2" {...AOS_CONFIG.FADE_UP}>
             Select your service category, choose the material, and enter the
             quantity to get an instant cost estimate for your project.
           </p>
         </div>
       </div>
 
-      <div className="row justify-content-center">
+      <div className="row justify-content-center" {...AOS_CONFIG.ZOOM_IN}>
         <div className="col-md-8">
           <div className="p-4">
             <div className="row">

@@ -1,8 +1,12 @@
 import React from "react";
+import { AOS_CONFIG } from "../db/aosAnimations.js";
 
 export default function ServiceCard({ title, image, description }) {
   return (
-    <div className="card service-card h-100 w-100 p-0 text-white">
+    <div
+      className="card service-card h-100 w-100 p-0 text-white"
+      {...AOS_CONFIG.FLIP_LEFT}
+    >
       {/* Background image */}
       <div
         className="card-img service-card-bg h-100"

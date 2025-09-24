@@ -1,6 +1,7 @@
 import { FaPhoneAlt } from "react-icons/fa";
 import "../assets/css/inquiry-now-section.css";
 import bgImage from "../assets/images/view/consultation.jpg";
+import { AOS_CONFIG } from "../db/aosAnimations.js";
 
 export default function InquiryAndBooking() {
   return (
@@ -10,14 +11,14 @@ export default function InquiryAndBooking() {
         className="cta-container d-flex flex-column align-items-center my-3 justify-content-center"
         style={{ backgroundImage: `url(${bgImage})` }}
       >
-        <h2 className="text-primary-custom mb-3">
+        <h2 className="text-primary-custom mb-3" {...AOS_CONFIG.FADE_UP}>
           Ready to make your brand stand out?
         </h2>
-        <p className=" mb-4 text-regular-custom">
+        <p className=" mb-4 text-regular-custom" {...AOS_CONFIG.ZOOM_IN}>
           From digital campaigns to premium print — we help your business shine
           with bold, effective advertising.
         </p>
-        <div className="mb-4">
+        <div className="mb-4" {...AOS_CONFIG.FADE_UP}>
           <a href="#inqury" className="btn-primary-outline-custom">
             Claim Your Free Estimate Now
           </a>
@@ -28,7 +29,10 @@ export default function InquiryAndBooking() {
       <div id="inquiry" className="container">
         <div className="row gap-3">
           {/* Left Column - Inquiry Form */}
-          <div className="col-12 col-md h-100 d-flex">
+          <div
+            className="col-12 col-md h-100 d-flex"
+            {...AOS_CONFIG.FADE_RIGHT}
+          >
             <div className="p-4 inquiry-box h-100 d-flex flex-column">
               <h3 className="text-primary-custom mb-3">Inquiry Now</h3>
               <p className="text-white mb-4">
@@ -82,7 +86,7 @@ export default function InquiryAndBooking() {
           </div>
 
           {/* Right Column - Book Now */}
-          <div className="col-12 col-md h-100 d-flex">
+          <div className="col-12 col-md h-100 d-flex" {...AOS_CONFIG.FADE_LEFT}>
             <div className="p-4 booking-box text-center h-100 d-flex flex-column">
               <h3 className="mb-3 text-primary-custom">Too Busy?</h3>
               <p className="mb-4">

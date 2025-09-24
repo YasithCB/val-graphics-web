@@ -5,6 +5,7 @@ import { FaPhoneAlt, FaUser } from "react-icons/fa";
 import { PHONE } from "../db/constants.js";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext.jsx";
+import { AOS_CONFIG } from "../db/aosAnimations.js";
 
 export default function Header() {
   const { user, logout } = useContext(AuthContext);
@@ -19,7 +20,7 @@ export default function Header() {
     <header className="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
       <div className="container">
         {/* Logo */}
-        <a className="navbar-brand" href="#home">
+        <a className="navbar-brand" href="#home" {...AOS_CONFIG.FADE_RIGHT}>
           <img src={logoWhite} alt="val-logo" height={50} />
         </a>
 
@@ -32,12 +33,17 @@ export default function Header() {
           aria-controls="mainNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          {...AOS_CONFIG.FADE_LEFT}
         >
           <span className="navbar-toggler-icon"></span>
         </button>
 
         {/* Menu Links */}
-        <div className="collapse navbar-collapse" id="mainNav">
+        <div
+          className="collapse navbar-collapse"
+          id="mainNav"
+          {...AOS_CONFIG.FADE_LEFT}
+        >
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0 gap-2">
             <li className="nav-item">
               <a className="nav-link" href="#home">
