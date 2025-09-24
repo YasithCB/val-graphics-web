@@ -312,7 +312,6 @@ import bPartner2 from "../assets/images/branding-partners/arlon-logo.png";
 import bPartner3 from "../assets/images/branding-partners/k-jet.png";
 import bPartner4 from "../assets/images/branding-partners/mactac.png";
 import bPartner5 from "../assets/images/branding-partners/metamark-logo.png";
-import bPartner6 from "../assets/images/branding-partners/nar.png";
 import bPartner7 from "../assets/images/branding-partners/Oracal.png";
 import bPartner8 from "../assets/images/branding-partners/Orajet.png";
 import bPartner9 from "../assets/images/branding-partners/Suntek.png";
@@ -323,7 +322,6 @@ export const PRODUCTION_PARTNERS = [
   bPartner3,
   bPartner4,
   bPartner5,
-  bPartner6,
   bPartner7,
   bPartner8,
   bPartner9,

@@ -28,13 +28,13 @@ export default function EstimatorSection() {
   };
 
   return (
-    <section className="estimator-section container pt-3">
+    <section className="estimator-section container pt-5">
       <div className="row justify-content-center text-center mb-4">
         <div className="col-lg-8 text-white">
           <h2 className="mb-3">
             <span className="text-primary-custom">Project</span> Cost Estimator
           </h2>
-          <p className="text-white-50">
+          <p className="text-white-50 px-2">
             Select your service category, choose the material, and enter the
             quantity to get an instant cost estimate for your project.
           </p>
@@ -46,7 +46,7 @@ export default function EstimatorSection() {
           <div className="p-4">
             <div className="row">
               {/* Category */}
-              <div className="mb-3 col text-start">
+              <div className="mb-3 col-12 col-md text-start">
                 <label className="form-label">Service Category</label>
                 <select
                   className="form-select"
@@ -67,7 +67,7 @@ export default function EstimatorSection() {
               </div>
 
               {/* Process Type */}
-              <div className="mb-3 col text-start">
+              <div className="mb-3 col-12 col-md text-start">
                 <label className="form-label">Process Type</label>
                 <select
                   className="form-select"

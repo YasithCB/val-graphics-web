@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 export default function CardGrid() {
   return (
-    <div className="container card-grid vw-100 p-0">
-      <div className="custom-grid g-4 h-100 m-0">
+    <div className="card-grid container vw-100 p-0 mt-3">
+      <div className="custom-grid h-100 m-0">
         {SERVICES_DATA_ALL.categories.map((service, i) => (
           <Link
             key={i}

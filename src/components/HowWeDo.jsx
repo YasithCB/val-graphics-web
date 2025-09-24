@@ -28,7 +28,10 @@ const HowWeDo = () => {
   return (
     <div className="container d-flex flex-wrap gap-4 justify-content-center mt-4">
       {services.map((service, index) => (
-        <div key={index} className="service-box col p-4 text-center h-100">
+        <div
+          key={index}
+          className="service-box col-12 col-md p-1 p-md-4 text-center h-100"
+        >
           <div className="icon-wrapper text-primary-custom mb-3">
             {service.icon}
           </div>

@@ -5,7 +5,7 @@ import imgGif from "../assets/images/gif/logo-white.gif"; // replace with your i
 
 export default function AboutSection() {
   return (
-    <section id="about" className="about-section container-fluid py-5">
+    <section id="about" className="about-section container-fluid py-2">
       <div className="row align-items-center">
         {/* Left Image */}
         <div className="col-md-6 p-0 about-img-wrapper">

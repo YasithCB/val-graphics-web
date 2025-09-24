@@ -16,14 +16,14 @@ export default function Header() {
   };
 
   return (
-    <header className="navbar navbar-expand-lg navbar-light shadow-sm">
+    <header className="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
       <div className="container">
         {/* Logo */}
-        <a className={`navbar-brand ms-5`} href="#">
+        <a className="navbar-brand" href="#home">
           <img
             src={logoWhite}
-            alt="MediaStore Logo"
-            height="50" // Adjust to desired header size
+            alt="val-logo"
+            height="45" // Adjust to desired header size
           />
         </a>
 

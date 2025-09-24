@@ -26,9 +26,9 @@ export default function InquiryAndBooking() {
 
       {/* Inquiry */}
       <div id="inquiry" className="container">
-        <div className="row g-4">
+        <div className="row gap-3">
           {/* Left Column - Inquiry Form */}
-          <div className="col-md-6 h-100 d-flex">
+          <div className="col-12 col-md h-100 d-flex">
             <div className="p-4 inquiry-box h-100 d-flex flex-column">
               <h3 className="text-primary-custom mb-3">Inquiry Now</h3>
               <p className="text-white mb-4">
@@ -82,7 +82,7 @@ export default function InquiryAndBooking() {
           </div>
 
           {/* Right Column - Book Now */}
-          <div className="col-md-6 h-100 d-flex">
+          <div className="col-12 col-md h-100 d-flex">
             <div className="p-4 booking-box text-center h-100 d-flex flex-column">
               <h3 className="mb-3 text-primary-custom">Too Busy?</h3>
               <p className="mb-4">
@@ -101,13 +101,13 @@ export default function InquiryAndBooking() {
                   />
                 </div>
 
-                {/*<div className="mb-3">*/}
-                {/*  <input*/}
-                {/*    type="email"*/}
-                {/*    className="form-control"*/}
-                {/*    placeholder="E-mail"*/}
-                {/*  />*/}
-                {/*</div>*/}
+                <div className="mb-3">
+                  <input
+                    type="email"
+                    className="form-control"
+                    placeholder="E-mail"
+                  />
+                </div>
 
                 {/* Category */}
                 <div className="mb-3">

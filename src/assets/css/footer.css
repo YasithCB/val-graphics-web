@@ -1,12 +1,18 @@
 /* src/styles/footer.css */
+.footer-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
 .footer-wrapper {
     background: linear-gradient(135deg, var(--background-color) 0%, rgba(var(--primary-color-rgb), 0.15) 100%);
     position: relative;
     overflow: hidden;
     margin-top: 7rem !important;
 }
+/* subtle moving radial glow */
 .footer-wrapper::before {
-    /* subtle moving radial glow */
     content: "";
     position: absolute;
     top: -40%;
@@ -86,6 +92,6 @@
     position: absolute;
     top: 0;
     right: 0;
-    transform: translateY(-56%); /* move upward by 50% of its own height */
+    transform: translateY(-15%); /* move upward by 50% of its own height */
     z-index: 9999 !important;
 }

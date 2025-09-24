@@ -16,7 +16,7 @@ import logoWhite from "../assets/images/logo-white.svg";
 
 export default function Footer() {
   return (
-    <div className="position-relative">
+    <div className="footer-container">
       <img src={robotWhite} alt="robot-white" className="robot-white" />
       <footer className="footer-wrapper text-light pt-5 pb-3">
         <div className="container">

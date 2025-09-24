@@ -44,9 +44,28 @@ a:hover {
 }
 
 body {
-  background-color: var(--background-color) !important ;
-  min-width: 320px;
-  min-height: 100vh;
+    background-image: url("./assets/images/view/dark-paper-bg.jpg") !important;
+    background-size: contain;
+    min-width: 320px;
+    min-height: 100vh;
+    position: relative;
+    z-index: 0;
+}
+
+/* Only on mobile */
+@media (max-width: 768px) {
+    body {
+        padding-bottom: 200vh !important;
+    }
+}
+
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0; /* full screen */
+    background-color: rgba(0, 0, 0, 0.75); /* adjust 0.5 = opacity */
+    z-index: -1; /* stays behind content */
 }
 
 h1 {
