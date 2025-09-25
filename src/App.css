@@ -1,5 +1,4 @@
 #root {
-  max-width: 1280px;
   text-align: center;
 }
 
@@ -53,6 +52,12 @@
     color: var(--content-color-50);
 }
 /* text */
+
+/* bg */
+.bg-white-50 {
+    background-color: rgba(255, 255, 255, 0.65);
+}
+/* bg */
 
 
 

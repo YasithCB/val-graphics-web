@@ -2,7 +2,7 @@ import "../../assets/css/service-category-page/sub-category-card.css";
 
 export default function SubCategoryCard({ item }) {
   return (
-    <section className="col-3">
+    <section className="col-12 col-md-5 col-lg-3">
       <div className="service-card">
         {/* Image */}
         <div

@@ -315,6 +315,10 @@ import bPartner5 from "../assets/images/branding-partners/metamark-logo.png";
 import bPartner7 from "../assets/images/branding-partners/Oracal.png";
 import bPartner8 from "../assets/images/branding-partners/Orajet.png";
 import bPartner9 from "../assets/images/branding-partners/Suntek.png";
+import bPartner10 from "../assets/images/branding-partners/Avery_Dennison_Logo.png";
+import bPartner11 from "../assets/images/branding-partners/hexis.png";
+import bPartner12 from "../assets/images/branding-partners/Llumar-Logo.png";
+import bPartner13 from "../assets/images/branding-partners/xpel-logo.png";
 
 export const PRODUCTION_PARTNERS = [
   bPartner1,
@@ -325,4 +329,8 @@ export const PRODUCTION_PARTNERS = [
   bPartner7,
   bPartner8,
   bPartner9,
+  bPartner10,
+  bPartner11,
+  bPartner12,
+  bPartner13,
 ];

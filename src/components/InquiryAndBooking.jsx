@@ -1,6 +1,6 @@
 import { FaPhoneAlt } from "react-icons/fa";
 import "../assets/css/inquiry-now-section.css";
-import bgImage from "../assets/images/view/consultation.jpg";
+import bgImage from "../assets/images/view/printer-colorfull.jpg";
 import { AOS_CONFIG } from "../db/aosAnimations.js";
 
 export default function InquiryAndBooking() {
@@ -8,7 +8,7 @@ export default function InquiryAndBooking() {
     <section className="py-5 inquiry-booking-section">
       {/* CTA */}
       <div
-        className="cta-container d-flex flex-column align-items-center my-3 justify-content-center"
+        className="cta-container d-flex flex-column align-items-center my-3 px-2 px-md-5 justify-content-center"
         style={{ backgroundImage: `url(${bgImage})` }}
       >
         <h2 className="text-primary-custom mb-3" {...AOS_CONFIG.FADE_UP}>

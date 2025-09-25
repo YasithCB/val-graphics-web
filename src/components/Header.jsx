@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "../assets/css/header.css";
-import logoWhite from "../assets/images/logo-white-horiz.png";
+import logoWhite from "../assets/images/logo-horiz.png";
 import { FaPhoneAlt, FaUser } from "react-icons/fa";
 import { PHONE } from "../db/constants.js";
 import { Link, useNavigate } from "react-router-dom";
@@ -21,7 +21,14 @@ export default function Header() {
       <div className="container">
         {/* Logo */}
         <a className="navbar-brand" href="#home" {...AOS_CONFIG.FADE_RIGHT}>
-          <img src={logoWhite} alt="val-logo" height={50} />
+          <img
+            src={logoWhite}
+            alt="val-logo"
+            height={50}
+            style={{
+              filter: "drop-shadow(0 0 1px rgba(255,255,255,1))",
+            }}
+          />
         </a>
 
         {/* Mobile Toggle */}

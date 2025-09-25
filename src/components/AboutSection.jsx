@@ -10,7 +10,7 @@ export default function AboutSection() {
       <div className="row align-items-center">
         {/* Left Image */}
         <div
-          className="col-md-6 p-0 about-img-wrapper"
+          className="col-lg-6 p-0 about-img-wrapper"
           {...AOS_CONFIG.FADE_RIGHT}
         >
           <img src={img} alt="About" className="img-fluid about-img" />
@@ -18,7 +18,7 @@ export default function AboutSection() {
         </div>
 
         {/* Right Text */}
-        <div className="col-md-6 p-5 text-white">
+        <div className="col-lg-6 p-5 text-white">
           <img src={imgGif} alt="logo-animation" {...AOS_CONFIG.ZOOM_IN} />
           <h2 className="mb-4" {...AOS_CONFIG.FADE_LEFT}>
             <span className="text-primary-custom">About</span> Our Company

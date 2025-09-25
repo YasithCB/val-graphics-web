@@ -1,5 +1,5 @@
 {
-  "homepage": "https://yasithcb.github.io/val-graphics-web",
+  "homepage": "https://YasithCB.github.io/val-graphics-web",
   "name": "val-graphics-web",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "vite build && copy dist\\index.html dist\\404.html && gh-pages -d dist"
   },
   "dependencies": {
     "aos": "^2.3.4",
@@ -33,6 +32,7 @@
     "gh-pages": "^6.3.0",
     "globals": "^16.4.0",
     "prettier": "^3.6.2",
-    "vite": "^7.1.7"
+    "vite": "^7.1.7",
+    "vite-plugin-gh-pages": "^1.0.1"
   }
 }

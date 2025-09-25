@@ -1,6 +1,7 @@
 import React from "react";
 import { FaPaintBrush, FaPrint, FaTools, FaWrench } from "react-icons/fa";
 import { AOS_CONFIG } from "../db/aosAnimations.js"; // icons
+import "../assets/css/how-we-do.css";
 
 const HowWeDo = () => {
   const services = [
@@ -27,11 +28,11 @@ const HowWeDo = () => {
   ];
 
   return (
-    <div className="container d-flex flex-wrap gap-4 justify-content-center mt-4">
+    <div className="container d-flex flex-wrap gap-lg-4 justify-content-center mt-4">
       {services.map((service, index) => (
         <div
           key={index}
-          className="service-box col-12 col-md p-1 p-md-4 text-center h-100"
+          className="service-box col-12 col-md-6 col-lg p-1 p-md-4 text-center h-100"
           {...AOS_CONFIG.FADE_UP}
         >
           <div className="icon-wrapper text-primary-custom mb-3">

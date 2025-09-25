@@ -25,9 +25,9 @@ function App() {
   return (
     <div className="App">
       <AuthProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/">
           <Routes>
-            <Route path="/val-graphics-web" element={<HomePage />} />
+            <Route path="/" element={<HomePage />} />
             <Route
               path="/services/:categoryName"
               element={<ServiceDetailsPage />}

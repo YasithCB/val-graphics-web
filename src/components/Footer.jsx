@@ -1,5 +1,5 @@
 // src/components/Footer.jsx
-import React from "react";
+import React, { forwardRef } from "react";
 import {
   FaFacebookF,
   FaInstagram,
@@ -8,30 +8,39 @@ import {
   FaEnvelope,
   FaPhoneAlt,
   FaMapMarkerAlt,
+  FaSnapchatGhost,
+  FaTwitter,
 } from "react-icons/fa";
 import "../assets/css/footer.css";
 
 import robotWhite from "../assets/images/view/robot-white-top.png";
-import logoWhite from "../assets/images/logo-white-horiz.png";
+import logoWhite from "../assets/images/logo-horiz.png";
 
-export default function Footer() {
+const Footer = forwardRef((props, ref) => {
   return (
-    <div className="footer-container">
-      <img src={robotWhite} alt="robot-white" className="robot-white" />
+    <div ref={ref} className="footer-container">
+      {/*<img src={robotWhite} alt="robot-white" className="robot-white" />*/}
       <footer className="footer-wrapper text-light pt-5 pb-3">
         <div className="container">
           <div className="row gy-4">
             {/* Brand */}
-            <div className="col-md-3">
-              <img src={logoWhite} alt="VAL" className="footer-logo mb-3" />
-              <p className="small">
+            <div className="col-lg-3">
+              <img
+                src={logoWhite}
+                alt="VAL"
+                className="footer-logo mb-3 px-5 px-lg-0"
+                style={{
+                  filter: "drop-shadow(0 0 1px rgba(255,255,255,1))",
+                }}
+              />
+              <p className="small px-3">
                 Creative agency in Abu Dhabi delivering branding, signage, web
                 development and event solutions that push your brand further.
               </p>
             </div>
 
             {/* Quick Links */}
-            <div className="col-md-3">
+            <div className="col-lg-3">
               <h5 className="footer-title">Quick Links</h5>
               <ul className="footer-links">
                 <li>
@@ -50,7 +59,7 @@ export default function Footer() {
             </div>
 
             {/* Contact */}
-            <div className="col-md-3">
+            <div className="col-lg-3">
               <h5 className="footer-title">Get in Touch</h5>
               <ul className="footer-contact">
                 <li>
@@ -60,7 +69,7 @@ export default function Footer() {
                   <FaWhatsapp /> 050 230 31 30
                 </li>
                 <li>
-                  <FaEnvelope /> email@mediastore.ae
+                  <FaEnvelope /> info@valgraphics.com
                 </li>
                 <li>
                   <FaMapMarkerAlt /> Abu Dhabi, UAE
@@ -69,7 +78,7 @@ export default function Footer() {
             </div>
 
             {/* Newsletter / CTA */}
-            <div className="col-md-3">
+            <div className="col-lg-3">
               <h5 className="footer-title">Stay Inspired</h5>
               <p className="small">Join our creative updates & design tips.</p>
               <form className="d-flex">
@@ -81,15 +90,21 @@ export default function Footer() {
                 <button className="btn-primary-custom">Go</button>
               </form>
 
-              <div className="footer-social mt-3 d-flex gap-3">
-                <a href="https://www.facebook.com/MEDIASTORE.AE">
+              <div className="footer-social mt-3 d-flex justify-content-lg-start justify-content-center gap-3">
+                <a href="#">
                   <FaFacebookF />
                 </a>
-                <a href="https://www.instagram.com/mediastore.ae">
+                <a href="#">
                   <FaInstagram />
                 </a>
-                <a href="https://www.tiktok.com/@mediastore519?lang=en">
+                <a href="#">
                   <FaTiktok />
+                </a>
+                <a href="#">
+                  <FaSnapchatGhost />
+                </a>
+                <a href="#">
+                  <FaTwitter />
                 </a>
               </div>
             </div>
@@ -103,4 +118,6 @@ export default function Footer() {
       </footer>
     </div>
   );
-}
+});
+
+export default Footer;

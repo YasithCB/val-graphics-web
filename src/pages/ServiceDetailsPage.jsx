@@ -13,9 +13,6 @@ export default function ServiceDetailsPage() {
     (c) => c.name.toLowerCase().replace(/\s+/g, "-") === categoryName,
   );
 
-  console.log("category");
-  console.log(category);
-
   // Split first word from the rest
   const [firstWord, ...rest] = category.name.split(" ");
 

@@ -1,11 +1,18 @@
 @font-face {
     font-family: 'Bank Gothic';
+    /*font-family: 'Montserrat';*/
     src:
             url('/fonts/BankGothic/BankGothic Md BT.ttf') format('woff2'),
             url('/fonts/BankGothic/bank gothic medium bt.ttf') format('woff'),
             url('/fonts/BankGothic/Bank Gothic Light Regular.otf') format('woff'),
             url('/fonts/BankGothic/BankGothic Bold') format('woff'),
             url('/fonts/BankGothic/BankGothicMediumBT') format('woff')
+
+            /*url('/fonts/BankGothic/Montserrat-Black.ttf') format('woff')*/
+            /*url('/fonts/BankGothic/Montserrat-Bold.ttf') format('woff')*/
+            /*url('/fonts/BankGothic/Montserrat-Regular.ttf') format('woff')*/
+            /*url('/fonts/BankGothic/Montserrat-Medium.ttf') format('woff')*/
+            /*url('/fonts/BankGothic/Montserrat-Thin.ttf') format('woff')*/
     ;
     font-weight: 500;
     font-style: normal;
