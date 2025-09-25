@@ -28,11 +28,8 @@ const HomePage = () => {
     return () => window.removeEventListener("resize", updateHeight);
   }, []);
 
-  console.log("footerHeight:", footerHeight);
-
   return (
     <div
-      className="light-container"
       style={
         window.innerWidth <= 768
           ? { paddingBottom: footerHeight + 250 }

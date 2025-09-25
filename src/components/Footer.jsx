@@ -15,7 +15,7 @@ import {
 import "../assets/css/footer.css";
 
 import robotWhite from "../assets/images/view/robot-white-top.png";
-import logoWhite from "../assets/images/logo-horiz.png";
+import logoWhite from "../assets/images/logo-white-horiz.png";
 
 const Footer = forwardRef((props, ref) => {
   return (
@@ -30,9 +30,6 @@ const Footer = forwardRef((props, ref) => {
                 src={logoWhite}
                 alt="VAL"
                 className="footer-logo col-md-9 mb-3 px-5 px-lg-0"
-                style={{
-                  filter: "drop-shadow(0 0 1px rgba(255,255,255,1))",
-                }}
               />
               <p className="small px-3">
                 Creative agency in Abu Dhabi delivering branding, signage, web
