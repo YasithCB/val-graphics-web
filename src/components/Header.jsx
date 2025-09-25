@@ -69,7 +69,7 @@ export default function Header() {
             </li>
           </ul>
 
-          <div>
+          <div className="d-flex flex-column flex-md-row justify-content-center gap-2">
             {/* Inquiry Button */}
             <a href="#inquiry" className="btn-primary-custom ms-lg-3">
               INQUIRY NOW →

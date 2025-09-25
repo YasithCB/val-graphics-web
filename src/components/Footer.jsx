@@ -10,6 +10,7 @@ import {
   FaMapMarkerAlt,
   FaSnapchatGhost,
   FaTwitter,
+  FaPaperPlane,
 } from "react-icons/fa";
 import "../assets/css/footer.css";
 
@@ -28,7 +29,7 @@ const Footer = forwardRef((props, ref) => {
               <img
                 src={logoWhite}
                 alt="VAL"
-                className="footer-logo mb-3 px-5 px-lg-0"
+                className="footer-logo col-md-9 mb-3 px-5 px-lg-0"
                 style={{
                   filter: "drop-shadow(0 0 1px rgba(255,255,255,1))",
                 }}
@@ -40,9 +41,9 @@ const Footer = forwardRef((props, ref) => {
             </div>
 
             {/* Quick Links */}
-            <div className="col-lg-3">
-              <h5 className="footer-title">Quick Links</h5>
-              <ul className="footer-links">
+            <div className="col-md-6 col-lg-3">
+              <h5 className="footer-title text-center">Quick Links</h5>
+              <ul className="footer-links text-center">
                 <li>
                   <a href="/home">Home</a>
                 </li>
@@ -59,9 +60,9 @@ const Footer = forwardRef((props, ref) => {
             </div>
 
             {/* Contact */}
-            <div className="col-lg-3">
-              <h5 className="footer-title">Get in Touch</h5>
-              <ul className="footer-contact">
+            <div className="col-md-6 col-lg-3">
+              <h5 className="footer-title text-start">Get in Touch</h5>
+              <ul className="footer-contact text-start">
                 <li>
                   <FaPhoneAlt /> 050 230 31 30
                 </li>
@@ -87,7 +88,9 @@ const Footer = forwardRef((props, ref) => {
                   placeholder="Your email"
                   className="form-control me-2"
                 />
-                <button className="btn-primary-custom">Go</button>
+                <button className="btn-primary-custom">
+                  <FaPaperPlane />
+                </button>
               </form>
 
               <div className="footer-social mt-3 d-flex justify-content-lg-start justify-content-center gap-3">

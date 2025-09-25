@@ -33,7 +33,13 @@ const HomePage = () => {
   return (
     <div
       className="light-container"
-      style={{ paddingBottom: footerHeight + 150 }}
+      style={
+        window.innerWidth <= 768
+          ? { paddingBottom: footerHeight + 250 }
+          : window.innerWidth <= 992
+            ? { paddingBottom: footerHeight / 2 }
+            : {}
+      }
     >
       <Header />
       <HeroSection />
