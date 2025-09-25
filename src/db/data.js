@@ -13,9 +13,7 @@ import subCategoryImage1n6 from "../assets/images/sub-category-images/1.6.jpg";
 import subCategoryImage1n7 from "../assets/images/sub-category-images/1.7.jpg";
 import subCategoryImage1n8 from "../assets/images/sub-category-images/1.8.jpg";
 import subCategoryImage2n1 from "../assets/images/sub-category-images/2.1.jpg";
-import subCategoryImage2n2 from "../assets/images/sub-category-images/2.2.jpg";
-import subCategoryImage2n3 from "../assets/images/sub-category-images/2.3.jpg";
-import subCategoryImage2n4 from "../assets/images/sub-category-images/2.4.jpg";
+import subCategoryImage2n2 from "../assets/images/sub-category-images/2.2.webp";
 import subCategoryImage2n5 from "../assets/images/sub-category-images/2.5.webp";
 import subCategoryImage2n6 from "../assets/images/sub-category-images/2.6.jpg";
 import subCategoryImage2n7 from "../assets/images/sub-category-images/2.7.jpg";
@@ -315,6 +313,27 @@ export const SERVICES_DATA_ALL = {
             { name: "3D / Custom Structure Billboard", ratePerSqFt: 25 },
           ],
         },
+        {
+          name: "Acrylic Scooter Boards",
+          image: subCategoryImage2n1,
+          desc: "Durable and stylish acrylic scooter boards designed for custom branding and advertising. Available in clear, colored, or mirror finishes for eye-catching displays.",
+          materials: [
+            { name: "Clear Cast Acrylic Sheet 5mm", ratePerSqFt: 20 },
+            { name: "Colored / Tinted Acrylic 5mm", ratePerSqFt: 25 },
+            { name: "Mirror Finish Acrylic 5mm", ratePerSqFt: 30 },
+          ],
+        },
+        {
+          name: "Acrylic Sign Boards",
+          image: subCategoryImage2n2,
+          desc: "Premium acrylic sign boards ideal for indoor and outdoor branding. Long-lasting, weather-resistant, and available in glossy, frosted, or backlit styles for modern signage.",
+          materials: [
+            { name: "Glossy Acrylic Sign Board", ratePerSqFt: 22 },
+            { name: "Frosted Acrylic Sign Board", ratePerSqFt: 25 },
+            { name: "Backlit Acrylic Sign Board", ratePerSqFt: 28 },
+          ],
+        },
+
         {
           name: "Safety Signs",
           image: subCategoryImage4n3,
