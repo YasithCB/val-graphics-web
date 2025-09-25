@@ -18,12 +18,12 @@ export default function AboutSection() {
         </div>
 
         {/* Right Text */}
-        <div className="col-lg-6 p-5 text-white">
+        <div className="col-lg-6 p-5 text-regular-custom">
           <img src={imgGif} alt="logo-animation" {...AOS_CONFIG.ZOOM_IN} />
           <h2 className="mb-4" {...AOS_CONFIG.FADE_LEFT}>
             <span className="text-primary-custom">About</span> Our Company
           </h2>
-          <p className="mb-4 text-white-50" {...AOS_CONFIG.FADE_LEFT}>
+          <p className="mb-4 text-regular-custom-50" {...AOS_CONFIG.FADE_LEFT}>
             We are a creative studio dedicated to delivering world-class
             branding, signage, and visual solutions that bring ideas to life
             with unmatched precision. By blending innovation, craftsmanship, and

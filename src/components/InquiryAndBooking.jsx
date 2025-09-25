@@ -35,7 +35,7 @@ export default function InquiryAndBooking() {
           >
             <div className="p-4 inquiry-box h-100 d-flex flex-column">
               <h3 className="text-primary-custom mb-3">Inquiry Now</h3>
-              <p className="text-white mb-4">
+              <p className="text-regular-custom mb-4">
                 Share your details and let us know exactly what you need.
               </p>
               <form className="mt-auto">
@@ -158,7 +158,7 @@ export default function InquiryAndBooking() {
                 <p className="mb-2">Prefer talking directly?</p>
                 <a
                   href="tel:0502303130"
-                  className="btn btn-outline-light w-100"
+                  className="btn-primary-outline-custom w-100"
                 >
                   <FaPhoneAlt className="me-2" /> Call Us: 050 230 31 30
                 </a>

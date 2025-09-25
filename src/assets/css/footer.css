@@ -6,7 +6,7 @@
 }
 
 .footer-wrapper {
-    background: linear-gradient(135deg, var(--background-color) 0%, rgba(var(--primary-color-rgb), 0.15) 100%);
+    background: linear-gradient(135deg, var(--primary-color) 0%, rgba(var(--primary-color-rgb), 0.15) 100%);
     position: relative;
     overflow: hidden;
     /*margin-top: 7rem !important;*/

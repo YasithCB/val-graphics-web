@@ -62,7 +62,7 @@ const Footer = forwardRef((props, ref) => {
             {/* Contact */}
             <div className="col-md-6 col-lg-3">
               <h5 className="footer-title text-lg-start">Get in Touch</h5>
-              <ul className="footer-contact text-lg-start">
+              <ul className="footer-contact text-lg-start text-regular-custom">
                 <li>
                   <FaPhoneAlt /> 050 230 31 30
                 </li>
@@ -81,7 +81,9 @@ const Footer = forwardRef((props, ref) => {
             {/* Newsletter / CTA */}
             <div className="col-lg-3">
               <h5 className="footer-title">Stay Inspired</h5>
-              <p className="small">Join our creative updates & design tips.</p>
+              <p className="small text-regular-custom">
+                Join our creative updates & design tips.
+              </p>
               <form className="d-flex">
                 <input
                   type="email"
@@ -113,7 +115,7 @@ const Footer = forwardRef((props, ref) => {
             </div>
           </div>
           <hr className="footer-divider my-4" />
-          <p className="text-center small mb-0">
+          <p className="text-center small mb-0 text-regular-custom">
             © {new Date().getFullYear()} Val Graphics · Crafted with creativity
             in Abu Dhabi
           </p>

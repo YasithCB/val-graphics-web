@@ -24,7 +24,7 @@ export default function ServiceDetailsPage() {
     <div className="pb-5">
       {/* Hero Section */}
       <section
-        className="fullwidth-section d-flex align-items-center text-center text-white"
+        className="fullwidth-section d-flex align-items-center text-center text-regular-custom"
         style={{ backgroundImage: `url(${category.image})` }}
       >
         <div className="container">

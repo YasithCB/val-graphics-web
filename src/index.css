@@ -15,10 +15,11 @@
   -moz-osx-font-smoothing: grayscale;
 
     --background-color: white;
-    --background-color-rgb: 14, 14, 14;
+    --background-color-rgb: 255,255,255;
 
     --content-color: black;
-    --content-color-50: rgba(255, 255, 255, 0.5);
+    --content-color-rgba: 0 0 0;
+    --content-color-50: rgba(0, 0, 0, 0.7);
 
     /* color current */
     /*--primary-color: #c51f5d;*/
@@ -71,8 +72,8 @@ a:hover {
 }
 
 body {
-    background-image: url("./assets/images/view/dark-paper-bg.jpg") !important;
-    background-size: contain;
+    /*background-image: url("./assets/images/view/dark-paper-bg.jpg") !important;*/
+    /*background-size: contain;*/
     min-width: 320px;
     min-height: 100vh;
     position: relative;
@@ -85,15 +86,6 @@ body {
     body {
         /*padding-bottom: 200vh !important;*/
     }
-}
-
-
-body::before {
-    content: "";
-    position: fixed;
-    inset: 0; /* full screen */
-    background-color: rgba(0, 0, 0, 0.75); /* adjust 0.5 = opacity */
-    z-index: -1; /* stays behind content */
 }
 
 h1 {

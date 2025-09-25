@@ -19,7 +19,7 @@ export default function SubCategoryCard({ item }) {
             <div className="materials-list mt-3">
               <h5 className="mb-2">Available Materials</h5>
               {item.materials.map((mat, idx) => (
-                <p key={idx} className="text-white-50">
+                <p key={idx} className="text-regular-custom-50">
                   {mat.name}
                 </p>
               ))}

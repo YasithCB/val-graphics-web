@@ -31,11 +31,11 @@ export default function EstimatorSection() {
   return (
     <section className="estimator-section container pt-5">
       <div className="row justify-content-center text-center mb-4">
-        <div className="col-lg-8 text-white">
+        <div className="col-lg-8 text-regular-custom">
           <h2 className="mb-3" {...AOS_CONFIG.FADE_UP}>
             <span className="text-primary-custom">Project</span> Cost Estimator
           </h2>
-          <p className="text-white-50 px-2" {...AOS_CONFIG.FADE_UP}>
+          <p className="text-regular-custom-50 px-2" {...AOS_CONFIG.FADE_UP}>
             Select your service category, choose the material, and enter the
             quantity to get an instant cost estimate for your project.
           </p>

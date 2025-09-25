@@ -109,7 +109,6 @@
 /* Description hidden initially */
 .service-card-desc {
     opacity: 0;
-    color: white;
     font-size: 0.8rem !important;
     padding: 0 2rem;
     transform: translateY(20px);
