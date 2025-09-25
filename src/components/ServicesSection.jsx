@@ -8,7 +8,7 @@ import "../assets/css/card-grid.css";
 
 export default function ServicesSection() {
   return (
-    <div className="card-grid container vw-100 p-0 mt-5">
+    <div id="services" className="card-grid container vw-100 p-0 mt-5">
       <div className="mb-5  ">
         <h2 className="text-regular-custom" {...AOS_CONFIG.FADE_LEFT}>
           <span className="text-primary-custom">All</span> Creative Solutions

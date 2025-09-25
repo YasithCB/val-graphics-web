@@ -1,13 +1,13 @@
-import categoryImage1 from "../assets/images/services/card-images/vehi-wrap-2.png";
-import categoryImage2 from "../assets/images/services/card-images/acrylic-works.png";
-import categoryImage3 from "../assets/images/services/card-images/printing-services.png";
-import categoryImage4 from "../assets/images/services/card-images/signage-works.png";
-import categoryImage6 from "../assets/images/services/card-images/marketing.jpg";
+import categoryImage1 from "../assets/images/services/card-images/vehi-wrap-2.webp";
+import categoryImage2 from "../assets/images/services/card-images/acrylic-works.webp";
+import categoryImage3 from "../assets/images/services/card-images/printing-services.webp";
+import categoryImage4 from "../assets/images/services/card-images/signage-works.webp";
+import categoryImage6 from "../assets/images/services/card-images/marketing.webp";
 
 import subCategoryImage1n1 from "../assets/images/sub-category-images/1.1.jpg";
 import subCategoryImage1n2 from "../assets/images/sub-category-images/1.2.webp";
 import subCategoryImage1n3 from "../assets/images/sub-category-images/1.3.webp";
-import subCategoryImage1n4 from "../assets/images/sub-category-images/1.4.jpg";
+import subCategoryImage1n4 from "../assets/images/sub-category-images/1.4.webp";
 import subCategoryImage1n5 from "../assets/images/sub-category-images/1.5.webp";
 import subCategoryImage1n6 from "../assets/images/sub-category-images/1.6.jpg";
 import subCategoryImage1n7 from "../assets/images/sub-category-images/1.7.jpg";
@@ -20,7 +20,7 @@ import subCategoryImage2n7 from "../assets/images/sub-category-images/2.7.jpg";
 import subCategoryImage2n8 from "../assets/images/sub-category-images/2.8.webp";
 import subCategoryImage2n9 from "../assets/images/sub-category-images/2.9.webp";
 import subCategoryImage3n1 from "../assets/images/sub-category-images/3.1.jpg";
-import subCategoryImage3n2 from "../assets/images/sub-category-images/3.2.jpg";
+import subCategoryImage3n2 from "../assets/images/sub-category-images/3.2.webp";
 import subCategoryImage3n3 from "../assets/images/sub-category-images/3.3.jpg";
 import subCategoryImage3n4 from "../assets/images/sub-category-images/3.4.jpg";
 import subCategoryImage3n5 from "../assets/images/sub-category-images/3.5.webp";
@@ -29,9 +29,9 @@ import subCategoryImage4n2 from "../assets/images/sub-category-images/4.2.jpg";
 import subCategoryImage4n3 from "../assets/images/sub-category-images/4.3.jpg";
 import subCategoryImage4n4 from "../assets/images/sub-category-images/4.4.jpg";
 import subCategoryImage4n5 from "../assets/images/sub-category-images/4.5.jpg";
-import subCategoryImage5n2 from "../assets/images/sub-category-images/5.2.jpg";
+import subCategoryImage4n6 from "../assets/images/sub-category-images/4.6.webp";
 import subCategoryImage5n3 from "../assets/images/sub-category-images/5.3.jpg";
-import subCategoryImage5n4 from "../assets/images/sub-category-images/5.4.jpg";
+import subCategoryImage5n4 from "../assets/images/sub-category-images/5.4.webp";
 import subCategoryImage6n1 from "../assets/images/sub-category-images/6.1.jpg";
 import subCategoryImage6n2 from "../assets/images/sub-category-images/6.2.jpg";
 import subCategoryImage6n3 from "../assets/images/sub-category-images/6.3.jpg";
@@ -186,6 +186,16 @@ export const SERVICES_DATA_ALL = {
           ],
         },
         {
+          name: "Wallpapers and Paints",
+          image: subCategoryImage5n4,
+          desc: "Transform your walls with premium wallpapers and paints in vibrant colors and unique textures. Ideal for creating stylish interiors that reflect personality and elegance in any space.",
+          materials: [
+            { name: "Matte Finish Digital Wallpaper", ratePerSqFt: 12 },
+            { name: "Textured Vinyl Wallpaper", ratePerSqFt: 15 },
+            { name: "Eco-Solvent Printed Wallpaper", ratePerSqFt: 18 },
+          ],
+        },
+        {
           name: "Wall Art",
           image: subCategoryImage5n3,
           desc: "Creative wall art options including canvas, acrylic, and framed prints, crafted to add character, sophistication, and a striking visual appeal to residential and commercial spaces.",
@@ -193,26 +203,6 @@ export const SERVICES_DATA_ALL = {
             { name: "Canvas Art Prints", ratePerSqFt: 18 },
             { name: "Acrylic Glass Panels", ratePerSqFt: 25 },
             { name: "Framed Premium Posters", ratePerSqFt: 20 },
-          ],
-        },
-        {
-          name: "Custom Printed Wallpaper",
-          image: subCategoryImage5n2,
-          desc: "Personalized wallpapers with high-resolution digital printing, available in matte or textured finishes, bringing unique patterns, images, or branding to walls with vibrant impact.",
-          materials: [
-            { name: "Matte Finish Digital Wallpaper", ratePerSqFt: 12 },
-            { name: "Textured Vinyl Wallpaper", ratePerSqFt: 15 },
-            { name: "Eco-Solvent Printed Wallpaper", ratePerSqFt: 18 },
-          ],
-        },
-        {
-          name: "Regular Wallpaper",
-          image: subCategoryImage5n4,
-          desc: "Elegant and stylish wall coverings available in matte, textured, and vinyl finishes. Perfect for homes, offices, and commercial spaces to enhance interiors with a modern touch.",
-          materials: [
-            { name: "Matte Finish Digital Wallpaper", ratePerSqFt: 12 },
-            { name: "Textured Vinyl Wallpaper", ratePerSqFt: 15 },
-            { name: "Eco-Solvent Printed Wallpaper", ratePerSqFt: 18 },
           ],
         },
       ],
@@ -333,7 +323,22 @@ export const SERVICES_DATA_ALL = {
             { name: "Backlit Acrylic Sign Board", ratePerSqFt: 28 },
           ],
         },
-
+        {
+          name: "Road Sign Boards",
+          image: subCategoryImage4n6,
+          desc: "Durable road sign boards designed for maximum visibility and safety. Made with reflective materials and weatherproof finishes for highways, streets, and commercial use.",
+          materials: [
+            { name: "Aluminium Reflective Road Sign", ratePerSqFt: 30 },
+            {
+              name: "ACP (Aluminium Composite Panel) Road Sign",
+              ratePerSqFt: 28,
+            },
+            {
+              name: "High-Intensity Prismatic Reflective Sign",
+              ratePerSqFt: 35,
+            },
+          ],
+        },
         {
           name: "Safety Signs",
           image: subCategoryImage4n3,
@@ -342,16 +347,6 @@ export const SERVICES_DATA_ALL = {
             { name: "Reflective Safety Sign Board", ratePerSqFt: 18 },
             { name: "Glow-in-the-Dark Safety Sign", ratePerSqFt: 22 },
             { name: "Acrylic Safety Sign Plate", ratePerSqFt: 15 },
-          ],
-        },
-        {
-          name: "Directional Signs",
-          image: subCategoryImage4n4,
-          desc: "Wayfinding and directional signage that improves navigation in offices, malls, and public spaces. Designed to be clear, readable, and aesthetically aligned with branding.",
-          materials: [
-            { name: "Acrylic Directional Board", ratePerSqFt: 18 },
-            { name: "Foam Board Directional Sign", ratePerSqFt: 10 },
-            { name: "Vinyl Wayfinding Sticker", ratePerSqFt: 8 },
           ],
         },
       ],

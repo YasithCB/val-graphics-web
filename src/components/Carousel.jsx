@@ -4,7 +4,7 @@ import { Carousel as BsCarousel } from "bootstrap";
 import img1 from "../assets/images/carousel/c1-truck.png";
 import img2 from "../assets/images/carousel/c2-printer.jpg";
 import img3 from "../assets/images/carousel/c3-interior design.webp";
-import img4 from "../assets/images/carousel/c4-signage.webp";
+import img4 from "../assets/images/carousel/c4- billboard.webp";
 import "../assets/css/carousel.css";
 
 export default function Carousel() {

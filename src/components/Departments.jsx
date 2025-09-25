@@ -43,7 +43,7 @@ const Departments = () => {
           <div className="icon-wrapper text-primary-custom mb-3">
             {service.icon}
           </div>
-          <h3 className="text-regular-custom">{service.title}</h3>
+          <h4 className="text-regular-custom">{service.title}</h4>
           <p className="text-regular-custom-50">{service.desc}</p>
         </div>
       ))}
