@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/css/about-section.css";
-import img from "../assets/images/view/eye-design.jpg"; // replace with your image
-import imgGif from "../assets/images/logo-anim.gif";
+import img from "../assets/images/view/eye-design.jpg";
+import logoIcon from "../assets/images/logo-icon-white.png";
 import { AOS_CONFIG } from "../db/aosAnimations.js";
 
 export default function AboutSection() {
@@ -19,7 +19,13 @@ export default function AboutSection() {
 
         {/* Right Text */}
         <div className="col-lg-6 p-5 text-white">
-          <img src={imgGif} alt="logo-animation" {...AOS_CONFIG.ZOOM_IN} />
+          <img
+            src={logoIcon}
+            alt="logo-icon"
+            className="logo-rotate-horiz mb-5"
+            height={150}
+            {...AOS_CONFIG.ZOOM_IN}
+          />
           <h2 className="mb-4" {...AOS_CONFIG.FADE_LEFT}>
             <span className="text-primary-custom">About</span> Our Company
           </h2>

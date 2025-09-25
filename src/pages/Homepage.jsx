@@ -2,12 +2,13 @@ import React, { useEffect, useRef, useState } from "react";
 import Header from "../components/Header";
 import WhatsAppButton from "../components/WhatsappButton";
 import Footer from "../components/Footer";
-import HeroSection from "../components/HeroSection.jsx";
 import AboutSection from "../components/AboutSection.jsx";
 import EstimatorSection from "../components/EstimatorSection.jsx";
 import InquiryAndBooking from "../components/InquiryAndBooking.jsx";
 import Departments from "../components/Departments.jsx";
 import ProductionPartners from "../components/ProductionPartners.jsx";
+import Carousel from "../components/Carousel.jsx";
+import ServicesSection from "../components/ServicesSection.jsx";
 
 const HomePage = () => {
   const footerRef = useRef(null);
@@ -39,7 +40,8 @@ const HomePage = () => {
       }
     >
       <Header />
-      <HeroSection />
+      <Carousel />
+      <ServicesSection />
       <Departments />
       <AboutSection />
       <ProductionPartners />

@@ -5,6 +5,10 @@ import { AOS_CONFIG } from "../db/aosAnimations.js";
 export default function ProductionPartners() {
   return (
     <section className="w-full bg-white py-5 overflow-hidden">
+      <div
+        className="absolute inset-0 bg-black opacity-50"
+        style={{ zIndex: 1 }}
+      ></div>
       <div className="text-center">
         <div className="mx-2 mx-md-auto">
           <h2
