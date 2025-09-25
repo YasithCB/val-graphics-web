@@ -58,8 +58,10 @@ const Footer = forwardRef((props, ref) => {
 
             {/* Contact */}
             <div className="col-md-6 col-lg-3">
-              <h5 className="footer-title text-start">Get in Touch</h5>
-              <ul className="footer-contact text-start">
+              <h5 className="footer-title text-center text-lg-start">
+                Get in Touch
+              </h5>
+              <ul className="footer-contact text-center text-lg-start">
                 <li>
                   <FaPhoneAlt /> 050 230 31 30
                 </li>

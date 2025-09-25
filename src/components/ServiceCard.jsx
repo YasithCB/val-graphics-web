@@ -5,7 +5,7 @@ export default function ServiceCard({ title, image, description }) {
   return (
     <div
       className="card service-card h-100 w-100 p-0 text-white"
-      {...AOS_CONFIG.FLIP_LEFT}
+      {...(window.innerWidth >= 992 ? AOS_CONFIG.FLIP_LEFT : {})}
     >
       {/* Background image */}
       <div
