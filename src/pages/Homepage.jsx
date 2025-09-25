@@ -6,7 +6,7 @@ import HeroSection from "../components/HeroSection.jsx";
 import AboutSection from "../components/AboutSection.jsx";
 import EstimatorSection from "../components/EstimatorSection.jsx";
 import InquiryAndBooking from "../components/InquiryAndBooking.jsx";
-import HowWeDo from "../components/HowWeDo.jsx";
+import Departments from "../components/Departments.jsx";
 import ProductionPartners from "../components/ProductionPartners.jsx";
 
 const HomePage = () => {
@@ -40,7 +40,7 @@ const HomePage = () => {
     >
       <Header />
       <HeroSection />
-      <HowWeDo />
+      <Departments />
       <AboutSection />
       <ProductionPartners />
       <EstimatorSection />

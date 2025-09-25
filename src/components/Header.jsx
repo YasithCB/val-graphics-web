@@ -64,8 +64,8 @@ export default function Header() {
 
           <div className="d-flex flex-column flex-md-row justify-content-center gap-2">
             {/* Inquiry Button */}
-            <a href="#inquiry" className="btn-primary-custom ms-lg-3">
-              INQUIRY NOW →
+            <a href="#inquiry" className="btn-primary-custom ms-lg-3 small">
+              INQUIRY NOW
             </a>
             <a
               href={`tel:${PHONE}`}
@@ -84,7 +84,7 @@ export default function Header() {
               </button>
             ) : (
               <Link
-                className="btn-primary-outline-custom ms-lg-1"
+                className="btn-primary-outline-custom small ms-lg-1"
                 to="/user/login"
               >
                 <FaUser className="user-icon" /> Login

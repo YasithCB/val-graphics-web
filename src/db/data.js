@@ -2,7 +2,6 @@ import categoryImage1 from "../assets/images/services/card-images/vehi-wrap-2.pn
 import categoryImage2 from "../assets/images/services/card-images/acrylic-works.png";
 import categoryImage3 from "../assets/images/services/card-images/printing-services.png";
 import categoryImage4 from "../assets/images/services/card-images/signage-works.png";
-import categoryImage5 from "../assets/images/services/card-images/wallpapers.jpg";
 import categoryImage6 from "../assets/images/services/card-images/marketing.jpg";
 
 import subCategoryImage1n1 from "../assets/images/sub-category-images/1.1.jpg";
@@ -32,7 +31,6 @@ import subCategoryImage4n2 from "../assets/images/sub-category-images/4.2.jpg";
 import subCategoryImage4n3 from "../assets/images/sub-category-images/4.3.jpg";
 import subCategoryImage4n4 from "../assets/images/sub-category-images/4.4.jpg";
 import subCategoryImage4n5 from "../assets/images/sub-category-images/4.5.jpg";
-import subCategoryImage5n1 from "../assets/images/sub-category-images/5.1.jpg";
 import subCategoryImage5n2 from "../assets/images/sub-category-images/5.2.jpg";
 import subCategoryImage5n3 from "../assets/images/sub-category-images/5.3.jpg";
 import subCategoryImage5n4 from "../assets/images/sub-category-images/5.4.jpg";
