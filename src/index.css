@@ -14,20 +14,47 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-    --background-color: #0e0e0e;
+    --background-color: white;
     --background-color-rgb: 14, 14, 14;
 
-    --content-color: white;
+    --content-color: black;
     --content-color-50: rgba(255, 255, 255, 0.5);
 
-    --primary-color: #c51f5d;
-    --primary-color-rgb: 197, 31, 93;
+    /* color current */
+    /*--primary-color: #c51f5d;*/
+    /*--primary-color-rgb: 197, 31, 93;*/
 
+    /* color 1 */
+    /*--primary-color: #00cfc8;*/
+    /*--primary-color-rgb: 0, 207, 200;*/
+
+    /* color 2 */
+    /*--primary-color: #69e30fa;*/
+    /*--primary-color-rgb: 105, 227, 250;*/
+
+    /*!* color 3 *!*/
+    /*--primary-color: #6c94dd;*/
+    /*--primary-color-rgb: 108, 148, 221;*/
+
+    /*!* color 4 *!*/
+    /*--primary-color: #312393;*/
+    /*--primary-color-rgb: 49, 35, 147;*/
+
+    /*!* color 5 *!*/
+    /*--primary-color: #b0a380;*/
+    /*--primary-color-rgb: 176, 163, 128;*/
+
+    /*!* color 6 *!*/
     /*--primary-color: #19d1e6;*/
     /*--primary-color-rgb: 25, 209, 230*/
 
-    /*--primary-color: #E6FF2B;*/
-    /*--primary-color-rgb: 230, 255, 43;*/
+    /* color red */
+    /*--primary-color: #cf0303;*/
+    /*--primary-color-rgb: 207, 3, 3;*/
+
+    /* color dark green */
+    --primary-color: #165d31;
+    --primary-color-rgb: 22, 93, 49;
 
     --primary-color-hover: #e63475;
     --primary-color-hover-rgb: 230, 52, 117; /* #e63475 */

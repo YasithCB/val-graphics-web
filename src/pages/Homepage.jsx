@@ -28,8 +28,6 @@ const HomePage = () => {
     return () => window.removeEventListener("resize", updateHeight);
   }, []);
 
-  console.log("footerHeight:", footerHeight);
-
   return (
     <div
       className="light-container"

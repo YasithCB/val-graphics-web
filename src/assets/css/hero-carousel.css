@@ -1,0 +1,10 @@
+.carousel-item img {
+    height: 90vh !important;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .carousel-item img {
+        height: 100vh;
+    }
+}

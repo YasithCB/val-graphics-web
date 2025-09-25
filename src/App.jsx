@@ -15,7 +15,11 @@ import { ToastContainer } from "react-toastify";
 import { AuthProvider } from "./context/AuthContext.jsx";
 import { AOS_CONFIG } from "./db/aosAnimations.js";
 import AOS from "aos";
-import "aos/dist/aos.css"; // ✅ important
+import "aos/dist/aos.css";
+
+// bootstrap
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 function App() {
   useEffect(() => {

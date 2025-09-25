@@ -15,7 +15,7 @@ import {
 import "../assets/css/footer.css";
 
 import robotWhite from "../assets/images/view/robot-white-top.png";
-import logoWhite from "../assets/images/logo-horiz.png";
+import logoWhite from "../assets/images/logo-white-horiz.png";
 
 const Footer = forwardRef((props, ref) => {
   return (
@@ -30,9 +30,9 @@ const Footer = forwardRef((props, ref) => {
                 src={logoWhite}
                 alt="VAL"
                 className="footer-logo col-md-9 mb-3 px-5 px-lg-0"
-                style={{
-                  filter: "drop-shadow(0 0 1px rgba(255,255,255,1))",
-                }}
+                // style={{
+                //   filter: "drop-shadow(0 0 1px rgba(255,255,255,1))",
+                // }}
               />
               <p className="small px-3">
                 Creative agency in Abu Dhabi delivering branding, signage, web
@@ -61,8 +61,8 @@ const Footer = forwardRef((props, ref) => {
 
             {/* Contact */}
             <div className="col-md-6 col-lg-3">
-              <h5 className="footer-title text-start">Get in Touch</h5>
-              <ul className="footer-contact text-start">
+              <h5 className="footer-title text-lg-start">Get in Touch</h5>
+              <ul className="footer-contact text-lg-start">
                 <li>
                   <FaPhoneAlt /> 050 230 31 30
                 </li>
