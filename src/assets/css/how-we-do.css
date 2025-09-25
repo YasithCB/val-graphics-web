@@ -2,10 +2,10 @@
     transition: all 0.3s ease-in-out;
     border: 1px solid transparent;
     border-radius: 12px; /* optional */
+    background-color: rgba(var(--primary-color-rgb), 0.05); /* light transparent tint */
 }
 
 .service-box:hover {
-    background-color: rgba(var(--primary-color-rgb), 0.05); /* light transparent tint */
     border-color: rgba(var(--primary-color-rgb), 0.4);       /* subtle border highlight */
     transform: translateY(-4px);
     cursor: pointer;
